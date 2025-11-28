@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Free Quotation | The Window Art</title>
+  <meta name="description" content="Request a free quotation from The Window Art for aluminium windows, glass partitions, shower glass and more in Ahmedabad." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="assets/images/twa-logo.png" />
+  <script src="script.js" defer></script>
+</head>
+<body class="page-quotation">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="assets/images/twa-logo.png" alt="The Window Art Logo" class="logo-img" />
+        <div class="brand-text">
+          <span class="brand-name">The Window Art</span>
+          <span class="brand-tagline">Complete Solutions of Glass & Aluminium</span>
+        </div>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html" data-nav="home">Home</a></li>
+          <li><a href="about.html" data-nav="about">About</a></li>
+          <li><a href="services.html" data-nav="services">Services</a></li>
+          <li><a href="projects.html" data-nav="projects">Projects</a></li>
+          <li><a href="free-quotation.html" data-nav="quotation">Free Quotation</a></li>
+          <li><a href="location.html" data-nav="location">Location</a></li>
+          <li><a href="contact.html" data-nav="contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero reveal">
+      <div class="container">
+        <h1>Request a Free Quotation</h1>
+        <p>Fill the form below and we’ll get back to you with an estimate.</p>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container">
+        <form class="quote-form" id="quote-form">
+          <div class="form-row">
+            <div class="form-field">
+              <label for="q-name">Name</label>
+              <input type="text" id="q-name" name="name" placeholder="Your full name" required />
+            </div>
+            <div class="form-field">
+              <label for="q-phone">Phone</label>
+              <input type="tel" id="q-phone" name="phone" placeholder="WhatsApp / Mobile number" required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-field">
+              <label for="q-area">Area / Locality</label>
+              <input type="text" id="q-area" name="area" placeholder="e.g. Jodhpur, Satellite, Prahladnagar" />
+            </div>
+            <div class="form-field">
+              <label for="q-service">Type of Work</label>
+              <select id="q-service" name="service">
+                <option value="">Select</option>
+                <option value="Aluminium Sliding Windows">Aluminium Sliding Windows</option>
+                <option value="Section Profiles / Frames">Section Profiles / Frames</option>
+                <option value="Glass Partition / Cabin">Glass Partition / Cabin</option>
+                <option value="Shower Glass / Bathroom">Shower Glass / Bathroom</option>
+                <option value="ACP / Exterior Work">ACP / Exterior Work</option>
+                <option value="Balcony / Railing Glass">Balcony / Railing Glass</option>
+                <option value="Mosquito Net Sliding System">Mosquito Net Sliding System</option>
+                <option value="Other / Custom Work">Other / Custom Work</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="q-details">Details</label>
+            <textarea id="q-details" name="details" rows="4" placeholder="Brief description of your requirement, approximate sizes, number of windows/partitions, etc." required></textarea>
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Submit via WhatsApp</button>
+            <p class="form-note">On submit, your details will open in WhatsApp chat with The Window Art.</p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>The Window Art</h3>
+        <p>Complete glass & aluminium solutions in Ahmedabad.</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Phone / WhatsApp: <a href="tel:+919712799997">+91 97127 99997</a></p>
+        <p>Email: <a href="mailto:thewindowartbydk@gmail.com">thewindowartbydk@gmail.com</a></p>
+      </div>
+      <div>
+        <h4>Address</h4>
+        <p>288, Radhe Shyam,<br>Opp. Panchgini Row Houses,<br>Jodhpur Village, Ahmedabad – 380015</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> The Window Art. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
